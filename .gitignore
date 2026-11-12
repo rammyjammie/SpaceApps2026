@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# data and model outputs stay off GitHub
+data/
+*.csv
+*.parquet
+*.fits
+*.h5
+*.pt
+*.ckpt
+*.zip
+
+# secrets
+.env
+.env.*
+!.env.example
+.netrc
+
+# web
+node_modules/
+.next/
+dist/
