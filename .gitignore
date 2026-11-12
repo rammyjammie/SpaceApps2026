@@ -218,6 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
 # data and model outputs stay off GitHub
 data/
 *.csv
@@ -238,3 +239,4 @@ data/
 node_modules/
 .next/
 dist/
+!web/lib/
